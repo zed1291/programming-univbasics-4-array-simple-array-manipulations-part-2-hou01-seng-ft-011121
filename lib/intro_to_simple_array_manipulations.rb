@@ -13,3 +13,9 @@ end
 def using_flatten array
   array.flatten
 end
+
+def using_delete array, string
+    if array.include? (string) == true
+      string.delete
+    end
+  end
