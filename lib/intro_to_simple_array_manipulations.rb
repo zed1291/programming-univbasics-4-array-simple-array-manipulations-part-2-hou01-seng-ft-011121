@@ -18,4 +18,5 @@ def using_delete array, string
   if array.include? (string) == true
     string.delete
   end
+  array
 end
